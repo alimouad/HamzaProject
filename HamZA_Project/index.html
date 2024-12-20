@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/fon1.jpg" type="image/png">
+    <meta name="description" content="geomap desktopApp pythonApp SigApp">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>GeoMap_IB</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar flex">
+        <a href="/" class="logo">GeoMap_IB</Link>
+        <nav>
+            <div class="flex">
+                <a href='#description' class="scroll-link">Description</Link>
+                <a href="#preview" class="scroll-link">Préversion </Link>
+                <a href="#download" class="scroll-link">Telecharger </a>
+                <a href="#contact" class="scroll-link">Contacter-Moi </a>
+                <!-- <a  class="btn">Contact me </a> -->
+                
+            </div>
+        </nav>
+    </header>
+    <section class="description" id="description">
+        <h3 class="title">
+            Description
+        </h3>
+        <div class="info">
+            <p class="definition">
+                <span>GeoMap_IB</span> , une application de cartographie interactive développée en Python. Elle permet à l’utilisateur de
+            réaliser plusieurs tâches. 
+            </p>
+            <div class="information">   
+                        <span class="infoTitle">
+                            ✨ *Technologies Utilisées :*<br />
+                        </span>
+                        <p class="infos">
+                            - <span>PyQt</span> : Pour l’interface utilisateur, offrant une expérience fluide et interactive.<br />
+                            - <span>Folium</span> : Pour la cartographie interactive, permettant la visualisation de données
+                            géospatiales.<br />
+                            - <span>PostgreSQL</span> : Pour le stockage des données des utilisateurs.<br />
+                            - <span>GDAL, Geopandas</span> : Pour la conversion et la gestion des fichiers géospatiaux.<br />
+                            - <span>Pyproj</span>  : Pour la transformation entre différents systèmes de coordonnées.<br />
+                        </p>
+                        
+                </div>
+            <div class="information">
+                    <span class="infoTitle">
+                        🗂 *Principales Fonctionnalités :*<br />
+                    </span>
+                    <p class="moreinfo">
+                         1. Digitalisation et Exportation des Données Géospatiales*<br />
+                        <span> - Utilisez les outils de dessin pour digitaliser vos données.</span> <br />
+                        <span>- Exportez dans divers formats (Shapefile, GeoJSON) avec le système de référence spatial de
+                         votre choix.</span><br />
+
+                         2. Conversion de Fichiers*<br />
+                        <span> - Conversion entre différents types de fichiers géospatiaux (Shapefile, GeoJSON, DXF,
+                         Excel).</span><br />
+
+                         3. Importation, Visualisation et Gestion des Fichiers*<br />
+                        <span> - Importez des fichiers Shapefile pour effectuer des recherches, filtrages et classifications
+                         basés sur les
+                         attributs des colonnes.<br /></span>
+                        <span> - Importez et visualisez un fichier Excel contenant des colonnes de géométrie
+                            .<br /></span>
+                         <span>- Ajoutez, supprimez et modifiez les colonnes de la table attributaire.<br /></span>
+                        <span>- Exportez vos données dans le format souhaité (SHP, GeoJSON, Excel).</span>
+                    </p>
+                </div>
+        </div>
+    </section>
+    <section class="preview" id="preview">
+        <h3 class="title">
+            Préversion
+        </h3>
+       <div class="dataContainer">
+           <div>
+               <div class="image">
+                   <!-- <img src="assets/1.png" alt=""> -->
+               </div>
+               <!-- <p class="information">
+
+               </p> -->
+               <div class="buttons">
+                   <button class="btn flex prev"><i class="ph ph-arrow-left"></i>Précédent</button>
+                   <button class="btn flex next">Suivant<i class="ph ph-arrow-right"></i></button>
+               </div>
+               <!-- <button class="close"><i class="ph ph-x"></i></button> -->
+           </div>
+       </div>
+    </section>
+    <section class="download" id="download">
+        <h3 class="title">Telecharger</h3>
+        <div class="telecharger">
+            <p>Je serais ravi si vous pouviez télécharger et tester mon logiciel. Vos retours sont très précieux, et je
+                cherche toujours à m'améliorer.<br/> </p>
+                <p id="message" class="message">Merci pour votre telechargement ! 😊</p>
+            <button class="btn" id="downloadBtn"><a
+                    href="https://drive.google.com/drive/folders/1GxHl0eMOFmh8uMyfIrFrYGUgP9VCnFfu" target="blank">Telecharger</a></button>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="title">Contacter-Moi</h3>
+        <p>Si vous rencontrez des problèmes ou avez des suggestions, je vous invite à me contacter sans hésitation.
+            Votre retour est précieux ! 😊</p>
+        <div class="biography">
+            <div class="flex">
+                <div class="first">
+                    <p>nom:</p>
+                    <p>phone:</p>
+                    <p>email:</p>
+                    <p>linkedin:</p>
+                </div>
+                <div class="answer">
+                    <p>Hamza Ibaararen</p>                 
+                    <p>(+212)697283475</p>
+                    <p>ibaararen.2002@gmail.com</p>
+                    <p><a href="https://www.linkedin.com/in/hamza-ibaararen-994a15268/" target='blank'>HAMZA
+                            IBAARAREN</a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer flex">
+        <p>
+            Copyright © 2024. All rights reserved.
+        </p>
+        <p>Developed by<a href="https://www.linkedin.com/in/hamza-ibaararen-994a15268/" target='blank'>HAMZA
+                IBAARAREN</a> </p>
+    </footer>
+    
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
